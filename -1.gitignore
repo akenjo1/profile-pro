@@ -1,0 +1,10 @@
+# ⚠️ Công cụ chỉnh sửa riêng — KHÔNG BAO GIỜ đưa lên GitHub
+admin.html
+
+# Bản sao lưu cấu hình (chứa toàn bộ link cá nhân)
+cau-hinh-profile.json
+*.backup.json
+
+# Rác hệ thống
+.DS_Store
+Thumbs.db
