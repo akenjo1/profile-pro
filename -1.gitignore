@@ -1,9 +1,13 @@
-# ⚠️ Công cụ chỉnh sửa riêng — KHÔNG BAO GIỜ đưa lên GitHub
+# ⚠️ Công cụ chỉnh sửa — KHÔNG đưa lên GitHub nếu bạn muốn giữ nó riêng tư
 admin.html
 
 # Bản sao lưu cấu hình (chứa toàn bộ link cá nhân)
 cau-hinh-profile.json
 *.backup.json
+
+# Không bao giờ commit token
+*token*.txt
+.env
 
 # Rác hệ thống
 .DS_Store

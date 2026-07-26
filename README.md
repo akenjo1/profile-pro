@@ -17,12 +17,17 @@ Repo công khai thì ai cũng tải file về được. Tệ hơn: file đã l�
 
 ## Cách cập nhật trang
 
-1. Mở `admin.html` trong máy (mở bằng trình duyệt, không cần mạng)
-2. Nhập PIN, sửa nội dung, bật/tắt app
-3. Bấm **👁 Xem thử** để kiểm tra
-4. Bấm **⬇️ Tạo file index.html**
-5. Đưa file vừa tải lên GitHub, thay cho `index.html` cũ
-6. Chờ khoảng 1 phút là trang thật cập nhật
+**Cách nhanh — đăng thẳng từ trình duyệt:**
+
+1. Mở `admin.html`, nhập PIN
+2. Sửa nội dung, bật/tắt app
+3. Bấm **🚀 Đăng lên GitHub** — xong, trang thật cập nhật sau khoảng 1 phút
+
+Lần đầu cần điền tài khoản, tên repo và token GitHub trong mục *Đăng thẳng lên GitHub*. Token lấy tại **Settings → Developer settings → Personal access tokens → Fine-grained tokens**, phần *Repository access* chọn **Only select repositories** (chọn đúng repo này), phần *Permissions* bật **Contents: Read and write**. Token chỉ lưu trong trình duyệt, không nằm trong file nào.
+
+Đổi sang máy khác: điền lại thông tin rồi bấm **⬇️ Lấy cấu hình từ GitHub** để kéo về đúng nội dung đang chạy.
+
+**Cách thủ công (không cần token):** bấm **⬇️ Tạo file index.html** rồi tải file đó lên repo, thay cho file cũ.
 
 ## Bật GitHub Pages
 
